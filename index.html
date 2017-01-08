@@ -1,0 +1,114 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <link rel='shortcut icon' href='img/favicon.ico' type='image/x-icon'/ >
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css"/>
+
+  <title>Book Store</title>
+</head>
+
+<body>
+  <div id="header" class="container-fluid">
+    <div class="row">
+      <div class="col-sm-4">
+        <a href="#" target="_self">
+          <img src="img/eb_logo.jpg" id="logo"/>
+        </a>
+      </div>
+      <div class="col-sm-4">
+        <div id="shopping">
+          <a href="cart.html" class="btn btn-info btn-lg">
+            <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="about.html">About Us</a>
+      </div>
+      <ul class="nav navbar-nav pull-right">
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(0)">MONDAY</a></li>
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(1)">TUESDAY</a></li>
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(2)">WEDNESDAY</a></li>
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(3)">THURSDAY</a></li>
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(4)">FRIDAY</a></li>
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(5)">SATURDAY</a></li>
+        <li><a href="javascript:;" onclick="$('#myCarousel').carousel(6)">SUNDAY</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
+    <!-- Indicators -->
+    <ol class="carousel-indicators">
+      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+      <li data-target="#myCarousel" data-slide-to="1"></li>
+      <li data-target="#myCarousel" data-slide-to="2"></li>
+      <li data-target="#myCarousel" data-slide-to="3"></li>
+      <li data-target="#myCarousel" data-slide-to="4"></li>
+      <li data-target="#myCarousel" data-slide-to="5"></li>
+      <li data-target="#myCarousel" data-slide-to="6"></li>
+    </ol>
+
+    <!-- Wrapper for slides -->
+    <div class="carousel-inner" role="listbox">
+      <div class="item active">
+        <iframe class="img-responsive center-block" src="days/monday.html"></iframe>
+      </div>
+
+      <div class="item">
+        <iframe class="img-responsive center-block" src="days/tuesday.html"></iframe>
+      </div>
+
+      <div class="item">
+        <iframe class="img-responsive center-block" src="days/wednesday.html"></iframe>
+      </div>
+
+      <div class="item">
+        <iframe class="img-responsive center-block" src="days/thursday.html"></iframe>
+      </div>
+
+      <div class="item">
+        <iframe class="img-responsive center-block" src="days/friday.html"></iframe>
+      </div>
+
+      <div class="item">
+        <iframe class="img-responsive center-block" src="days/saturday.html"></iframe>
+      </div>
+
+      <div class="item">
+        <iframe class="img-responsive center-block" src="days/sunday.html"></iframe>
+      </div>
+
+    <!-- Left and right controls -->
+    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+      <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+      <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+      <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+      <span class="sr-only">Next</span>
+    </a>
+  </div></br>
+
+  <div class="panel panel-info">
+    <div class="panel-heading">More info</div>
+    <div class="panel-body">Email: support@books.com</div>
+  </div>
+  </div>
+</body>
+
+</html>

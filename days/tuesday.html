@@ -1,0 +1,54 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <script src="../js/cart.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+  <title>Page</title>
+
+  <link rel="stylesheet" type="text/css" href="../css/iframe.css"/>
+</head>
+
+<body>
+  <div id="parent" class="container-fluid">
+    <a href="#" target="_self">
+      <img id="book" src="../img/iframe_bg.jpg" data-toggle="modal" data-target="#myModal"/>
+    </a><br/>
+    <div class="simpleCart_shelfItem">
+      <strong class="item_name">Book 2</strong>
+      <u><span class="item_price">R100</span></u>
+      <a class="item_add" href="javascript:;">Add to Cart</a>
+    </div>
+  </div>
+
+  <!-- Modal -->
+  <div id="myModal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Let's look inside!</h4>
+        </div>
+        <div class="modal-body">
+          <p>A book is a set of written, printed, illustrated, or blank sheets, made of ink, paper, parchment, or other materials, fastened together to hinge at one side. A single sheet within a book is a leaf, and each side of a leaf is a page. A set of text-filled or illustrated pages produced in electronic format is known as an electronic book, or e-book.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+
+</html>
